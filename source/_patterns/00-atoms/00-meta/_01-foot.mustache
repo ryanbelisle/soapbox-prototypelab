@@ -1,3 +1,101 @@
+			</div>
+		</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	
+	{{ "bootstrap.js" | asset_url | script_tag }}
+	{{ "/easypiechart/dist/jquery.easypiechart.min.js" | asset_url | script_tag }}
+	{{ "/zozo.accordion.4.0/js/zozo.accordion.min.js" | asset_url | script_tag }}
+	{{ "/readmore/readmore.min.js" | asset_url | script_tag }}	
+	{{ "/flesler-scrollto/jquery.scrollTo.min.js" | asset_url | script_tag }}	
+	{{ "/media-match/media.match.min.js" | asset_url | script_tag }}
+	{{ "/enquire/dist/enquire.min.js" | asset_url | script_tag }}
+
+	<script src="../../src_petitions/js/bootstrap.js"></script>
+	<script src="../../src_petitions/js/easypiechart/dist/jquery.easypiechart.min.js"></script>
+	<script src="../../src_petitions/js/zozo.accordion.4.0/js/zozo.accordion.min.js"></script>
+	<script src="../../src_petitions/js/readmore/readmore.min.js"></script>
+	<script src="../../src_petitions/js/flesler-scrollto/jquery.scrollTo.min.js"></script>
+	<script src="../../src_petitions/js/media-match/media.match.min.js"></script>
+	<script src="../../src_petitions/js/enquire/dist/enquire.min.js"></script>
+ 
+	<script type="text/javascript">
+		// $('#petitionSidebar').affix()
+
+		$(window).ready(function () {
+
+			enquire.register("screen and (max-width: 767px)", {
+			    deferSetup : true,
+			    setup : function() {
+			        // load content via AJAX
+			    },
+			    match : function() {
+			        // show sidebar
+			        $('.petition-pageintro-body').readmore({
+	    				speed: 100,
+	    				maxHeight: 96,
+	    				moreLink: '<a href="#" class="petition-pageintro-toggle petition-pageintro-togglemore"><i class="icon-chevron-down"></i></a>',
+	    				lessLink: '<a href="#" class="petition-pageintro-toggle petition-pageintro-toggleless"><i class="icon-chevron-up"></i></a>',
+	   					embedCSS: false
+	  				});
+			    },
+			    destroy : function() {
+			        // hide sidebar
+			    }  
+			});
+
+
+			// INIT: Petition Donut Chart
+ 			$('#petitionProgressChart').easyPieChart({
+		     	onStep: function(from, to, percent) {
+				 	$(this.el).find('.percent').text(Math.round(percent));
+				},
+				barColor: "#555",
+				trackColor: "#ccc",
+		        lineCap: "butt",
+		        lineWidth: 10,
+		        size: 100
+		    });
+
+			
+			// INIT: Petitition Accordion
+			var demo = $("#accordion-petition").zozoAccordion({
+                theme: "white",
+                active: false,
+                sectionSpacing: 0,
+                shadows: false,
+                responsive: true,
+                expandMode: "multiple",
+                rounded: false,
+                headerSize: 48,
+                showIcons: false,
+                animation: {
+        			type: "css"
+    			}
+            });
+
+
+			// INIT: Petition Form Toggles
+			$("#btn-petition-formToggle").click(function() {
+	  			$("#section-petitionFormToggle").fadeOut( "fast", function() {});
+	  			$("#section-petitionFormToggle").addClass("is-hidden");
+	  			$("#petition-stickybar").addClass("is-hidden");
+	  			$("#section-petitionForm").fadeIn( "fast", function() {});
+			});
+			$("#btn-petition-formToggleSticky").click(function() {
+	  			$("#petition-stickybar").fadeOut( "fast", function() {});
+	  			$("#petition-stickybar").addClass("is-hidden");
+	  			$("#section-petitionFormToggle").addClass("is-hidden");
+	  			$("#section-petitionForm").fadeIn( "fast", function() {});
+	  			// Scroll to Form
+	  			var target = '#section-petitionForm';
+				$.scrollTo( target, 800 );
+			});
+
+
+		});
+
+	</script>
 
 	<!--DO NOT REMOVE-->
 	{% pattern-lab-foot %}

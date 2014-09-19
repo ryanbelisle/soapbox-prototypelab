@@ -1,0 +1,35 @@
+&lt;div id=&quot;page&quot; class=&quot;sbx petitions petitions-view-petition lay-2col&quot;&gt;
+
+	{{&gt; organisms-pet-pageheader }}
+
+	&lt;div class=&quot;row-fluid&quot;&gt;
+		&lt;div class=&quot;span8 petitions-col-main&quot;&gt;	
+						
+			{{&gt; organisms-pet-media }}
+			{{&gt; organisms-pet-progress }}
+			{{&gt; organisms-pet-pageintro }}
+
+			{% assign form_customcss = 'visible-phone' %}
+			{% include &quot;organisms/org-form&quot; with {{form_customcss}} %}
+			{{&gt; organisms-pet-form }}
+
+			{{&gt; organisms-pet-letter }}
+			{{&gt; organisms-pet-supporters }}
+			{{&gt; organisms-pet-socialshare }}
+			{{&gt; organisms-pet-pageoutro }}
+		&lt;/div&gt;
+		&lt;div class=&quot;span4 petitions-col-sidebar&quot;&gt;
+			&lt;div class=&quot;petitions-sidebar&quot; id=&quot;petitionSidebar&quot;&gt;
+				{% assign form_customcss = 'form-l-vert-w100 form-cg-mrg-small' %}
+				{% assign section_form_customcss = 'hidden-phone' %}
+				{% include &quot;organisms/org-form&quot; with {{form_sidebar_customcss}} %}
+				{{&gt; organisms-pet-form }}
+			&lt;/div&gt;
+			{% comment %}&lt;div class=&quot;petitions-sidebar affix&quot; id=&quot;petitionSidebar&quot; data-spy=&quot;affix&quot; data-offset-top=&quot;200&quot;&gt;
+				{% assign form_customcss = 'form-l-verticalfull hidden-phone' %}
+				{% include &quot;organisms/org-form&quot; with {{form_sidebar_customcss}} %}
+				{{&gt; organisms-pet-form }}
+			&lt;/div&gt;{% endcomment %}
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;

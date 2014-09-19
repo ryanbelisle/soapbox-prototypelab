@@ -1,0 +1,26 @@
+<div id="page" class="sbx petitions petitions-view-petition lay-1col">
+	
+	{% comment %}Stickybar Form Toggle{% endcomment %}
+	{% assign formtoggle_type = 'sticky' %}
+	{% assign formtoggle_btn_customcss = 'btn-small w90' %}
+	{{> organisms-pet-formtoggle }}
+
+	{{> organisms-pet-pageheader }}
+	{{> organisms-pet-media }}
+	{{> organisms-pet-progress }}
+	{{> organisms-pet-pageintro }}
+
+	{% comment %}Inline Form Toggle{% endcomment %}
+	{% assign formtoggle_type = '' %}
+	{% assign formtoggle_btn_customcss = '' %}
+	{{> organisms-pet-formtoggle }}
+	{% assign form_customcss = '' %}
+	{% assign section_form_customcss = 'is-hidden' %}
+	{{> organisms-pet-form }}
+
+	{{> organisms-pet-letter }}
+	{{> organisms-pet-supporters }}
+	{{> organisms-pet-socialshare }}
+	{{> organisms-pet-pageoutro }}
+	
+</div>

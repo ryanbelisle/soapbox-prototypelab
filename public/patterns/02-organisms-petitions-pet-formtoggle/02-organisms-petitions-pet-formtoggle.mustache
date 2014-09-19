@@ -1,0 +1,14 @@
+{{# formtoggle_type_sticky }}
+	{{! {% assign formtoggle_btnId = 'btn-petition-formToggleSticky' %} }}
+	&lt;footer class=&quot;stickybar stickybar-fixed-bottom petition-stickybar visible-phone&quot; id=&quot;petition-stickybar&quot;&gt;
+		&lt;div class=&quot;stickybar-inner&quot;&gt;
+			 {{&gt; molecules-pet-formtoggle(formtoggle_btnId: &quot;btn-petition-formToggleSticky&quot;) }}
+		&lt;/div&gt;	
+	&lt;/footer&gt;
+{{/ formtoggle_type_sticky }}
+{{^ formtoggle_type_sticky }}
+	{{! {% assign formtoggle_btnId = 'btn-petition-formToggle' %} }}
+	&lt;div class=&quot;section section-petition-formtoggle {{formtoggle_customcss}}&quot; id=&quot;section-petitionFormToggle&quot;&gt;
+		 {{&gt; molecules-pet-formtoggle(formtoggle_btnId: &quot;btn-petition-formToggle&quot;) }}
+	&lt;/div&gt;
+{{/ formtoggle_type_sticky }}

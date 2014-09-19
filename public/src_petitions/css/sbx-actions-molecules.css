@@ -1,0 +1,34 @@
+.action-title {
+  margin: 0px;
+}
+.action-pageintro-toggle,
+.action-pageintro-body {
+  display: block;
+  width: 100%;
+}
+.action-pageintro-toggle {
+  text-align: center;
+}
+.action-pageintro-body {
+  overflow: hidden;
+}
+.action-targetsearch-formintro {
+  margin-bottom: 24px;
+}
+.action-targetsearch-outro {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+.btn-targetsearch-submit > i {
+  margin-left: 6px;
+}
+@media (max-width: 767px) {
+  .action-letter {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .action-letter p:last-child {
+    margin-bottom: 0;
+  }
+}
