@@ -1970,6 +1970,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/sbx-actions.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/sbx-actions.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/css\/src_petitions\/css\/sbx-actions.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/css\/src_petitions\/css\/sbx-actions.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/public\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -3587,20 +3605,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/01-molecules-actions-actions-targetform\/01-molecules-actions-actions-targetform.escaped.html": {
+	"\/public\/patterns\/01-molecules-actions-actions-targetsearch-form\/01-molecules-actions-actions-targetsearch-form.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-actions-actions-targetform\/01-molecules-actions-actions-targetform.escaped.html",
+		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-actions-actions-targetsearch-form\/01-molecules-actions-actions-targetsearch-form.escaped.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/01-molecules-actions-actions-targetform\/01-molecules-actions-actions-targetform.html": {
+	"\/public\/patterns\/01-molecules-actions-actions-targetsearch-form\/01-molecules-actions-actions-targetsearch-form.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-actions-actions-targetform\/01-molecules-actions-actions-targetform.html",
+		"inputAbbreviatedPath": "\/public\/patterns\/01-molecules-actions-actions-targetsearch-form\/01-molecules-actions-actions-targetsearch-form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4181,38 +4199,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/02-organisms-actions-actions-target-form\/02-organisms-actions-actions-target-form.escaped.html": {
+	"\/public\/patterns\/02-organisms-actions-actions-targetsearch\/02-organisms-actions-actions-targetsearch.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-actions-actions-target-form\/02-organisms-actions-actions-target-form.escaped.html",
+		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-actions-actions-targetsearch\/02-organisms-actions-actions-targetsearch.escaped.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/02-organisms-actions-actions-target-form\/02-organisms-actions-actions-target-form.html": {
+	"\/public\/patterns\/02-organisms-actions-actions-targetsearch\/02-organisms-actions-actions-targetsearch.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-actions-actions-target-form\/02-organisms-actions-actions-target-form.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/02-organisms-actions-actions-targetform\/02-organisms-actions-actions-targetform.escaped.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-actions-actions-targetform\/02-organisms-actions-actions-targetform.escaped.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/patterns\/02-organisms-actions-actions-targetform\/02-organisms-actions-actions-targetform.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-actions-actions-targetform\/02-organisms-actions-actions-targetform.html",
+		"inputAbbreviatedPath": "\/public\/patterns\/02-organisms-actions-actions-targetsearch\/02-organisms-actions-actions-targetsearch.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4523,20 +4523,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/03-templates-actions-actions-default-1col\/03-templates-actions-actions-default-1col.escaped.html": {
+	"\/public\/patterns\/03-templates-actions-actions-default-1col-step1\/03-templates-actions-actions-default-1col-step1.escaped.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/03-templates-actions-actions-default-1col\/03-templates-actions-actions-default-1col.escaped.html",
+		"inputAbbreviatedPath": "\/public\/patterns\/03-templates-actions-actions-default-1col-step1\/03-templates-actions-actions-default-1col-step1.escaped.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/patterns\/03-templates-actions-actions-default-1col\/03-templates-actions-actions-default-1col.html": {
+	"\/public\/patterns\/03-templates-actions-actions-default-1col-step1\/03-templates-actions-actions-default-1col-step1.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/patterns\/03-templates-actions-actions-default-1col\/03-templates-actions-actions-default-1col.html",
+		"inputAbbreviatedPath": "\/public\/patterns\/03-templates-actions-actions-default-1col-step1\/03-templates-actions-actions-default-1col-step1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/03-templates-actions-actions-default-1col-step2\/03-templates-actions-actions-default-1col-step2.escaped.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/03-templates-actions-actions-default-1col-step2\/03-templates-actions-actions-default-1col-step2.escaped.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/patterns\/03-templates-actions-actions-default-1col-step2\/03-templates-actions-actions-default-1col-step2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/patterns\/03-templates-actions-actions-default-1col-step2\/03-templates-actions-actions-default-1col-step2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4793,15 +4811,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/src_petitions\/css\/bootstrap-overrides.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/src_petitions\/css\/bootstrap-overrides.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/src_petitions\/css\/bootstrap-responsive.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -4946,29 +4955,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/src_petitions\/css\/sbx-actions-molecules.css": {
+	"\/public\/src_petitions\/css\/sbx-actions\/sbx-actions.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/src_petitions\/css\/sbx-actions-molecules.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/src_petitions\/css\/sbx-actions-sections.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/src_petitions\/css\/sbx-actions-sections.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/src_petitions\/css\/sbx-actions.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/src_petitions\/css\/sbx-actions.css",
+		"inputAbbreviatedPath": "\/public\/src_petitions\/css\/sbx-actions\/sbx-actions.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -11634,6 +11625,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/source\/src_petitions\/css\/sbx-actions\/sbx-actions.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/src_petitions\/css\/sbx-actions\/sbx-actions.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/source\/src_petitions\/css\/sbx-actions\/sbx-actions.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -12465,7 +12465,7 @@
 		},
 	"\/source\/src_petitions\/js\/chartjs\/docs\/prettify.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/src_petitions\/js\/chartjs\/docs\/prettify.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -12525,7 +12525,7 @@
 		},
 	"\/source\/src_petitions\/js\/chartjs\/docs\/styles.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/src_petitions\/js\/chartjs\/docs\/styles.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -12857,7 +12857,7 @@
 		},
 	"\/source\/src_petitions\/js\/easypiechart\/demo\/style.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/src_petitions\/js\/easypiechart\/demo\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -16714,7 +16714,7 @@
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathEnabled": 1,
 	"lessAutoOutputPathFilenamePattern": "*.css",
-	"lessAutoOutputPathRelativePath": "public\/src_petitions\/css",
+	"lessAutoOutputPathRelativePath": "..\/public\/src_petitions\/css",
 	"lessAutoOutputPathReplace1": "less",
 	"lessAutoOutputPathReplace2": "css",
 	"lessAutoOutputPathStyle": 1,

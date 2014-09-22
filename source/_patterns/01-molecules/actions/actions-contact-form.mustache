@@ -1,0 +1,58 @@
+<form class="action-contactform {{form_customcss}}" action="#" id="petitionForm">
+	<div class="action-contact-formintro">
+		<p>Sign form intro id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus.</p>
+	</div>
+	<fieldset class="action-contactform-fs clearfix">		
+		<div class="control-group {{cg_customcss}}">
+			<div class="controls">
+				<input type="text" class="input-text input-block-level" placeholder="First name">
+			</div>
+		</div>
+		<div class="control-group {{cg_customcss}}">
+			<div class="controls">
+				<input type="text" class="input-text input-block-level" placeholder="Last name">
+			</div>
+		</div>
+		<div class="control-group {{cg_customcss}}">
+			<div class="controls">
+				<input type="email" class="input-text input-block-level" placeholder="Email">
+			</div>
+		</div>
+		<div class="control-group {{cg_customcss}}">
+			<div class="controls">
+				<input type="text" class="input-text input-block-level" placeholder="Street Address">
+			</div>
+		</div>	
+		<div class="control-group {{cg_customcss}}">
+			<div class="controls">
+				<input type="text" class="input-text input-block-level" placeholder="City">
+			</div>
+		</div>		
+		<div class="control-group {{cg_customcss}}">
+			<div class="controls">
+				{{> atoms-select-state }}
+			</div>
+		</div>
+		<div class="control-group {{cg_customcss}}">
+			<div class="controls">
+				<input type="text" class="input-text input-block-level" placeholder="Zip code">
+			</div>
+		</div>
+		<div class="control-group cg-checkboxes {{cg_customcss}}">
+			<div class="controls">
+				<label class="checkbox">
+      		<input type="checkbox" checked> Signup for our newsletter
+    		</label>
+    		<label class="checkbox">
+      		<input type="checkbox" checked> Keep me updated on this action
+    		</label>
+			</div>
+		</div>
+	</fieldset>
+	<div class="form-actions action-contact-formactions">
+		<button class="btn btn-primary btn-contactform-submit" type="button">Sign it!</button>
+	</div>
+	<div class="action-contact-formoutro">
+		<p>Sign form outro description cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus.</p>
+	</div>
+</form>
