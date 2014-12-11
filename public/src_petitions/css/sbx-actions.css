@@ -20,6 +20,16 @@
 .clearfix:after {
   clear: both;
 }
+body {
+  font-size: 16px;
+}
+h3 {
+  color: #333;
+  line-height: 1.1;
+}
+a:hover {
+  text-decoration: none;
+}
 .help-block {
   margin-top: 6px;
   margin-bottom: 0px;
@@ -159,7 +169,13 @@ select.select {
 .action-pageintro-body {
   overflow: hidden;
 }
-.action-targetsearch-formintro {
+.action-letter-form .control-lb {
+  font-weight: bold;
+}
+.action-letter-closing p {
+  margin-bottom: 12px;
+}
+.action-targetsearch-intro {
   margin-bottom: 24px;
 }
 .action-targetsearch-outro {
@@ -190,16 +206,20 @@ select.select {
 .target-meta {
   color: #999;
 }
-.target-info {
-  margin: 12px 0 0 0;
+.target-meta-item {
+  display: block;
+}
+.target-address {
+  margin-bottom: 0;
 }
 .target-info-item {
+  display: block;
   margin: 0;
 }
-.action-contact-formintro {
+.action-contact-intro {
   margin-bottom: 24px;
 }
-.action-contact-formoutro {
+.action-contact-outro {
   margin-top: 24px;
   font-size: 14px;
   line-height: 24px;
